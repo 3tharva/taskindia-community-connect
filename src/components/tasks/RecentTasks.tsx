@@ -24,15 +24,34 @@ const recentTasks: Task[] = [
   },
   {
     id: 3,
-    title: "Collect class notes for someone who missed today's lectures",
-    category: "Campus Help",
-    location: "IIT Delhi Campus, Computer Science Dept",
-    budget: "₹200",
-    date: "May 15, 2025",
+    title: "Borrow DSLR camera for weekend project",
+    category: "Rental",
+    location: "IIT Delhi Campus, Hauz Khas",
+    budget: "₹500/weekend",
+    date: "May 12, 2025",
     status: "open"
   },
   {
     id: 4,
+    title: "Need textbook 'Advanced Engineering Mathematics' for exam prep",
+    category: "Campus Rental",
+    location: "Hostel 5, BITS Pilani Campus",
+    budget: "₹200/week",
+    date: "May 8, 2025",
+    time: "3:00 PM",
+    status: "open"
+  },
+  {
+    id: 5,
+    title: "Borrow formal suit for interview (size 40)",
+    category: "Rental",
+    location: "DLF Phase 2, Gurgaon",
+    budget: "₹300/day",
+    date: "May 15, 2025",
+    status: "open"
+  },
+  {
+    id: 6,
     title: "Pick up medicine for hostel mate with fever",
     category: "Errands",
     location: "Hostel 5, BITS Pilani Campus",
@@ -46,7 +65,7 @@ const recentTasks: Task[] = [
 const RecentTasks = () => {
   return (
     <div>
-      <h3 className="text-xl font-semibold mb-4">Recently Posted Tasks</h3>
+      <h3 className="text-xl font-semibold mb-4">Recently Posted Tasks & Rentals</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {recentTasks.map((task) => (
           <TaskCard key={task.id} task={task} />
