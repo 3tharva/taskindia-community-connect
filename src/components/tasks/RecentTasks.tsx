@@ -4,40 +4,41 @@ import TaskCard, { Task } from "./TaskCard";
 const recentTasks: Task[] = [
   {
     id: 1,
-    title: "Deep clean 2BHK apartment",
-    category: "Cleaning",
-    location: "Prestige Lakeside Habitat, Bangalore",
-    budget: "₹1,500",
+    title: "Pick up documents from Andheri office",
+    category: "Errands",
+    location: "Andheri East, Mumbai",
+    budget: "₹300",
     date: "May 10, 2025",
-    time: "10:00 AM",
+    time: "2:00 PM",
     status: "open"
   },
   {
     id: 2,
-    title: "Fix bathroom sink leakage",
-    category: "Repairs",
-    location: "IIT Madras Campus",
-    budget: "₹800",
+    title: "Deliver tiffin from home to office daily",
+    category: "Delivery",
+    location: "From Koramangala to Whitefield, Bangalore",
+    budget: "₹1,500/month",
     date: "May 7, 2025",
     status: "open",
     urgent: true
   },
   {
     id: 3,
-    title: "Help moving from hostel to PG",
-    category: "Moving",
-    location: "Delhi University North Campus",
-    budget: "₹2,000",
+    title: "Coordinate project meeting for 15 people",
+    category: "Coordination",
+    location: "IIT Delhi Campus",
+    budget: "₹1,200",
     date: "May 15, 2025",
     status: "open"
   },
   {
     id: 4,
-    title: "Weekly grocery shopping",
+    title: "Pick up medicine from pharmacy",
     category: "Errands",
-    location: "Hiranandani Gardens, Mumbai",
-    budget: "₹500",
+    location: "Aundh, Pune",
+    budget: "₹200",
     date: "May 5, 2025",
+    time: "4:30 PM",
     status: "assigned"
   }
 ];
